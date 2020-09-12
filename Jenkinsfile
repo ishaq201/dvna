@@ -37,7 +37,7 @@ pipeline {
 
         stage ('NPM Audit Analysis') {
             steps {
-                sh '/{PATH TO SCRIPT}/npm-audit.sh'
+                sh '/home/productionvm/dvna/npm-audit.sh'
             }
         }
 
